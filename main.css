@@ -1,0 +1,182 @@
+body{
+    margin: 0 0 0 0;
+}
+header{
+    width: 100%;
+    background-color: #fff424;
+    position: fixed;
+    top: 0;
+    /*контент накрывает страницу как исправить*/
+}
+header .logo{
+    display: inline-block;
+    width: 250px;
+    height: 100px
+}
+header .logo img{
+    width: 100%;
+    height: 100%;
+    padding-top: 5px
+    }
+header nav {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    position: fixed;
+    top: 0;
+}
+nav .menu{
+    display: block;
+    list-style-type: none;
+    padding: 2px;
+}
+nav .menu li{
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    margin-left: 100px;
+
+}
+nav .menu li a{
+    margin-top: 10px;
+    padding: 31px;
+    background-color: black;
+    border: black solid 1px;
+    text-decoration: none;
+    color: #fff424;
+    font-size: 53px;
+    }
+.section1{
+    background-image: url("img/asap3.jpg");
+    background-size: cover;
+    width: 100%;
+    margin-top: 109px;
+    height: 700px;
+}
+.section1 h1{
+    padding: 250px 0 0 105px ;
+    text-align: center;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: yellow;
+    -webkit-text-stroke: 3px black;
+}
+.phtext1{
+    background-color: #fff424;
+}
+.stylish-child{
+    padding: 50px;
+    position: relative;
+}
+.child{
+    position: relative;
+    bottom: 450px;
+    left: 900px;
+    width: 50%;
+    background-color: black;
+    color: #fff424;
+    padding: 5px 0 5px 10px;
+}
+.child p{
+    font-family: "Franklin Gothic Book";
+    font-weight: bold;
+    font-size: 20px;
+}
+.child h2{
+     text-transform: uppercase;
+     font-style: italic;
+     font-size: 50px;
+     text-align: center;
+     margin: 0;
+ }
+/*как убрать отступ справа*/
+.knopka{
+    width: 300px;
+    margin-left: 320px;
+    height: 40px;
+    background-color: #fff424;
+    border-color: black;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+    cursor: pointer;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+.knopka:hover {
+    color: #fff424;
+    background: black;
+    border: 1px;
+    border-color: #fff424;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+.phtext2{
+    background-color: black;
+}
+.stylish-childeez{
+   padding: 50px 50px 50px 1160px;
+    position: relative;
+}
+.childeez {
+    position: relative;
+    bottom: 350px;
+    left: 60px;
+    width: 50%;
+    background-color: #fff424;
+    color: black;
+    padding: 5px 0 5px 10px;
+}
+.childeez p{
+    font-family: "Franklin Gothic Book";
+    font-weight: bold;
+    font-size: 20px;
+}
+.childeez h2{
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+.knopkkka{
+    width: 300px;
+    margin-left: 320px;
+    height: 40px;
+    background-color: #fff424;
+    color: black;
+    border-color: #fff424;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+    cursor: pointer;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+.knopkkka:hover {
+    color: #fff424;
+    background: black;
+    border: 1px;
+    border-color: #fff424;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+/*НЕ ЗНАЮ КАК СДЕЛАТЬ ЭТУ КНОПКУ ЛУЧШЕ*/
+footer{
+    background-color: #fff424;
+}
+footer h1{
+    padding-top: 20px;
+    padding-left: 45%;
+    font-size: 50px;
+    margin: 0;
+}
+.downtown{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.knopeka{
+    position: relative;
+    right: 20px;
+}
