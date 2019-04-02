@@ -6,6 +6,7 @@ header{
     background-color: #fff424;
     position: fixed;
     top: 0;
+    z-index: 100;
     /*контент накрывает страницу как исправить*/
 }
 header .logo{
@@ -45,7 +46,15 @@ nav .menu li a{
     text-decoration: none;
     color: #fff424;
     font-size: 53px;
+    border-color: black;
     }
+nav .menu li a:hover{
+    color: black;
+    background: #fff424;
+    border: 2px solid  black;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 .section1{
     background-image: url("img/asap3.jpg");
     background-size: cover;
@@ -76,6 +85,7 @@ nav .menu li a{
     background-color: black;
     color: #fff424;
     padding: 5px 0 5px 10px;
+    border-radius: 25px;
 }
 .child p{
     font-family: "Franklin Gothic Book";
@@ -126,6 +136,7 @@ nav .menu li a{
     background-color: #fff424;
     color: black;
     padding: 5px 0 5px 10px;
+    border-radius: 20px;
 }
 .childeez p{
     font-family: "Franklin Gothic Book";
@@ -166,17 +177,39 @@ footer{
     background-color: #fff424;
 }
 footer h1{
-    padding-top: 20px;
-    padding-left: 45%;
-    font-size: 50px;
-    margin: 0;
+   text-align: center;
+    font-size: 80px;
+    margin:0;
+    padding-top: 15px;
+
 }
-.downtown{
+footer img{
     width: 100px;
     height: 100px;
     position: relative;
+    top: 10px;
+    left: 420px;
 }
-.knopeka{
+.twoknopka{
+    width: 300px;
+    height: 60px;
+    background-color: #fff424;
+    border-color: black;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+    cursor: pointer;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
     position: relative;
-    right: 20px;
+    left:850px;
+    bottom: 30px;
+    border-radius: 50px;
 }
+.twoknopka:hover {
+    color: #fff424;
+    background: black;
+    border: 1px;
+    border-color: #fff424;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
