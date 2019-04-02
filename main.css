@@ -7,7 +7,6 @@ header{
     position: fixed;
     top: 0;
     z-index: 100;
-    /*контент накрывает страницу как исправить*/
 }
 header .logo{
     display: inline-block;
@@ -42,12 +41,11 @@ nav .menu li a{
     margin-top: 10px;
     padding: 31px;
     background-color: black;
-    border: black solid 1px;
     text-decoration: none;
     color: #fff424;
     font-size: 53px;
-    border-color: black;
-    }
+    border: 1px solid black;
+}
 nav .menu li a:hover{
     color: black;
     background: #fff424;
@@ -55,14 +53,14 @@ nav .menu li a:hover{
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-.section1{
+.slogan{
     background-image: url("img/asap3.jpg");
     background-size: cover;
     width: 100%;
     margin-top: 109px;
     height: 700px;
 }
-.section1 h1{
+.slogan h1{
     padding: 250px 0 0 105px ;
     text-align: center;
     font-size: 100px;
@@ -70,14 +68,14 @@ nav .menu li a:hover{
     color: yellow;
     -webkit-text-stroke: 3px black;
 }
-.phtext1{
+.firstpart{
     background-color: #fff424;
 }
-.stylish-child{
+.leftphoto-parent{
     padding: 50px;
     position: relative;
 }
-.child{
+.leftphoto-child{
     position: relative;
     bottom: 450px;
     left: 900px;
@@ -87,12 +85,12 @@ nav .menu li a:hover{
     padding: 5px 0 5px 10px;
     border-radius: 25px;
 }
-.child p{
+.leftphoto-child p{
     font-family: "Franklin Gothic Book";
     font-weight: bold;
     font-size: 20px;
 }
-.child h2{
+.leftphoto-child h2{
      text-transform: uppercase;
      font-style: italic;
      font-size: 50px;
@@ -100,7 +98,7 @@ nav .menu li a:hover{
      margin: 0;
  }
 /*как убрать отступ справа*/
-.knopka{
+.btnright{
     width: 300px;
     margin-left: 320px;
     height: 40px;
@@ -113,22 +111,21 @@ nav .menu li a:hover{
     transition: all .3s linear;
     -webkit-transition: all .3s linear;
 }
-.knopka:hover {
+.btnright:hover {
     color: #fff424;
     background: black;
-    border: 1px;
-    border-color: #fff424;
+    border: 1px #fff424;
     transition: all .3s linear;
     -webkit-transition: all .3s linear;
 }
-.phtext2{
+.secondpart{
     background-color: black;
 }
-.stylish-childeez{
+.rightphoto-parent{
    padding: 50px 50px 50px 1160px;
     position: relative;
 }
-.childeez {
+.rightphoto-child{
     position: relative;
     bottom: 350px;
     left: 60px;
@@ -138,25 +135,25 @@ nav .menu li a:hover{
     padding: 5px 0 5px 10px;
     border-radius: 20px;
 }
-.childeez p{
+.rightphoto-child p{
     font-family: "Franklin Gothic Book";
     font-weight: bold;
     font-size: 20px;
 }
-.childeez h2{
+.rightphoto-child h2{
     text-transform: uppercase;
     font-style: italic;
     font-size: 50px;
     text-align: center;
     margin: 0;
 }
-.knopkkka{
+.btnleft{
     width: 300px;
     margin-left: 320px;
     height: 40px;
     background-color: #fff424;
     color: black;
-    border-color: #fff424;
+    border-color: black;
     font-size: 30px;
     letter-spacing: 1px;
     font-style: italic;
@@ -164,11 +161,10 @@ nav .menu li a:hover{
     transition: all .3s linear;
     -webkit-transition: all .3s linear;
 }
-.knopkkka:hover {
+.btnleft:hover {
     color: #fff424;
     background: black;
-    border: 1px;
-    border-color: #fff424;
+    border: 1px #fff424;
     transition: all .3s linear;
     -webkit-transition: all .3s linear;
 }
@@ -178,6 +174,7 @@ footer{
 }
 footer h1{
    text-align: center;
+    text-transform: uppercase;
     font-size: 80px;
     margin:0;
     padding-top: 15px;
@@ -190,7 +187,7 @@ footer img{
     top: 10px;
     left: 420px;
 }
-.twoknopka{
+.btnfooter{
     width: 300px;
     height: 60px;
     background-color: #fff424;
@@ -206,10 +203,10 @@ footer img{
     bottom: 30px;
     border-radius: 50px;
 }
-.twoknopka:hover {
+.btnfooter:hover {
     color: #fff424;
     background: black;
-    border: 1px;
-    border-color: #fff424;
+    border: 1px #fff424;
     transition: all .3s linear;
     -webkit-transition: all .3s linear;
+}
